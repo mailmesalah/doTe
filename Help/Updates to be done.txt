@@ -1,0 +1,10 @@
+1) State Flow representation, related to state flow logics.
+2) Maintain proper naming and uniformity in naming and implementing same logics.
+3) avoid deprecated class implementation.
+4) Make use of proper fragment with proper class with more readable codes.
+5) Finite state flow between client and server communication
+6) Database activities in Thread for not blocking main thread 
+7) Update/Delete quesries to be done via queries rather than programming
+8) Changed ID generation Long with suitable one, considering the large number of entries
+9) consider compined primareykey for example current date and serial number, generating serial number from 0 in each day.
+10) change JPQL to Criteria Query

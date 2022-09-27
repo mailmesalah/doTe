@@ -1,0 +1,5 @@
+Installation
+------------
+1) mysql connector jar file has to be coppied to the domain/lib/ext folder in the selected domain in glassfish server.
+2) mysql connector jar should be latest or it might show internal erron on creating table based on the Entity class developed.
+

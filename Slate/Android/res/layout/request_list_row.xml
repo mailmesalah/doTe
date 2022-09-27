@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/chat_list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+ 
+    <!--  ListRow Left side Thumbnail image -->
+    <LinearLayout 
+        android:id="@+id/request_thumbnail_profile_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:background="@drawable/image_bg"
+        android:layout_marginRight="5dip"
+        android:layout_marginEnd="5dip">
+ 
+        <ImageView
+            android:id="@+id/request_profile_image"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:src="@drawable/logo"/>
+ 
+    </LinearLayout>
+ 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dip"
+        android:layout_marginRight="5dip"
+        android:orientation="vertical"
+        android:padding="3dip" >
+    <!-- Profile Name -->
+    <TextView
+        android:id="@+id/request_profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sely"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+ 
+    <!-- Phone Number -->
+    <TextView
+        android:id="@+id/request_phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:textColor="#343434"
+        android:textSize="12sp"
+        android:layout_marginTop="1dip"        
+        android:text="+91963373993" />
+ 
+    <!-- Status -->
+
+    <TextView
+        android:id="@+id/request_status"
+        android:layout_width="135dip"
+        android:layout_height="50dip"
+        android:layout_marginEnd="5dip"
+        android:layout_marginRight="5dip"
+        android:gravity="clip_horizontal"
+        android:text="Just gona stand there"
+        android:textColor="#10bcc9"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_gravity="end"
+        android:orientation="vertical"
+        android:padding="3dip" >
+        
+        <Button
+            android:id="@+id/button_requestaccept" 
+            android:layout_width="90dip"
+            android:layout_height="wrap_content"
+            android:text="Accept"
+            />
+        
+        <Button
+            android:id="@+id/button_blockaccept" 
+            android:layout_width="90dip"
+            android:layout_height="wrap_content"
+            android:text="Block"
+            />
+ 
+        
+ 
+    </LinearLayout>
+ 
+</LinearLayout>
